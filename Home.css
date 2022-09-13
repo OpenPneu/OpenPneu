@@ -3,18 +3,12 @@
   min-height: 1098px;
 }
 
-.u-section-1 .u-image-1 {
-  width: 111px;
-  height: 111px;
-  margin: -33px auto 0 0;
-}
-
 .u-section-1 .u-layout-wrap-1 {
   width: 1526px;
-  margin: 171px auto 60px calc(((100% - 1140px) / 2) + -193px);
+  margin: 249px auto 60px calc(((100% - 1140px) / 2) + -193px);
 }
 
-.u-section-1 .u-image-2 {
+.u-section-1 .u-image-1 {
   min-height: 600px;
   background-image: url("images/WeChatImage_20220913112753.jpg");
   background-position: 50% 50%;
@@ -60,17 +54,12 @@
     min-height: 868px;
   }
 
-  .u-section-1 .u-image-1 {
-    margin-top: 64px;
-    margin-left: calc(((100% - 1140px) / 2) + -244px);
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
-    margin: 19px calc(((100% - 1140px) / 2)) 0 auto;
+    margin: 194px calc(((100% - 1140px) / 2)) 0 auto;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-1 {
     min-height: 370px;
   }
 
@@ -102,17 +91,11 @@
     min-height: 781px;
   }
 
-  .u-section-1 .u-image-1 {
-    margin-top: 294px;
-    margin-left: calc(((100% - 1140px) / 2) + -24px);
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 720px;
-    margin-top: -211px;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-1 {
     min-height: 283px;
   }
 
@@ -131,17 +114,11 @@
     min-height: 1023px;
   }
 
-  .u-section-1 .u-image-1 {
-    margin-top: 476px;
-    margin-left: calc(((100% - 1140px) / 2) + 156px);
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 540px;
-    margin-top: -393px;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-1 {
     min-height: 425px;
   }
 
@@ -156,17 +133,11 @@
     min-height: 866px;
   }
 
-  .u-section-1 .u-image-1 {
-    margin-top: 281px;
-    margin-left: calc(((100% - 1140px) / 2) + 356px);
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
-    margin-top: -198px;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-1 {
     min-height: 268px;
   }
 }
