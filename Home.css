@@ -171,7 +171,6 @@
 }
 
 .u-section-2 .u-container-layout-2 {
-  box-shadow: 11px 11px 25px 3px rgba(128,128,128,0.5);
   padding: 30px;
 }
 
@@ -182,18 +181,16 @@
 }
 
 .u-section-2 .u-container-layout-3 {
-  box-shadow: 11px 11px 25px 3px rgba(128,128,128,0.5);
   padding: 30px;
 }
 
 .u-section-2 .u-image-4 {
   min-height: 483px;
-  background-image: url("images/4.jpg");
+  background-image: url("images/5.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-4 {
-  box-shadow: 11px 11px 25px 3px rgba(128,128,128,0.5);
   padding: 30px;
 }
 
