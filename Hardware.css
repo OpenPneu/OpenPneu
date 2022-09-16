@@ -662,7 +662,7 @@
 
 @media (max-width: 575px) {
    .u-section-8 {
-    min-height: auto;
+    min-height: 318px;
   }
 
   .u-section-8 .u-sheet-1 {
@@ -679,7 +679,6 @@
   .u-section-8 .u-repeater-1 {
     min-height: 1032px;
     grid-gap: 0px 0px;
-    grid-auto-columns: 100%;
   }
 
   .u-section-8 .u-container-layout-1 {
