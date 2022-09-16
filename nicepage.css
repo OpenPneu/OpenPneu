@@ -38262,28 +38262,30 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
+   .u-header {
+    min-height: 138px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 1px;
+  }
+
   .u-header .u-menu-1 {
     width: auto;
     margin-top: 20px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+    margin-bottom: 1px;
   }
 }
 
 
-@media (max-width: 575px) {
-  .u-header .u-menu-1 {
-    margin-top: -58px;
-  }
-}
+
  .u-footer {
   background-image: none;
 }
