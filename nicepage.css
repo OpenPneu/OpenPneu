@@ -37953,6 +37953,7 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -38045,8 +38046,9 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         p:not(.u-text-variant)
         {
-        margin-top: 19px;
-        margin-bottom: 20px;
+        margin-top: 22px;
+        margin-bottom: 14px;
+        font-weight: 700;
         }
         .u-btn
         {
@@ -38068,8 +38070,8 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         ul:not(.u-unstyled)
         {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 24px;
+        margin-bottom: 16px;
         }
         ol
         {
