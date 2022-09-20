@@ -101,7 +101,13 @@
   margin: 14px 466px 0 auto;
   padding: 10px 34px;
 }
-
+.act {
+  background-color: empty;
+  width: 1506px;
+  height: 500px;
+  border: 0.5px solid black;
+  overflow: scroll;
+}
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 507px;
