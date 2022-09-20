@@ -10,6 +10,13 @@
   font-weight: 700;
   margin: 49px auto 0;
 }
+.act {
+  background-color: empty;
+  width: 1200px;
+  height: 500px;
+  border: 0.5px solid black;
+  overflow: scroll;
+}
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
