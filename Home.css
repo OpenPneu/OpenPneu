@@ -1,9 +1,9 @@
  .u-section-1 {
-  background-image: linear-gradient(to right, white, black);
+  background-image: linear-gradient(to right, white, #d9d9d9);
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 786px;
+  min-height: 796px;
 }
 
 .u-section-1 .u-gallery-1 {
@@ -82,7 +82,7 @@
   background-image: linear-gradient(135deg, #f5f7fa, #eafdfc);
   border-style: solid;
   font-weight: 700;
-  margin: -81px 0 43px auto;
+  margin: -81px 0 53px auto;
   padding: 10px 34px;
 }
 
@@ -95,6 +95,10 @@
 
   .u-section-1 .u-text-1 {
     margin-left: 591px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 20px;
   }
 }
 
@@ -119,6 +123,7 @@
   }
 
   .u-section-1 .u-text-3 {
+    margin-top: 20px;
     width: 540px;
   }
 }
@@ -152,7 +157,7 @@
 .u-section-2 .u-image-1 {
   min-height: 309px;
   background-image: url("images/3.jpg");
-  background-position: 50% 0%;
+  background-position: 50% 10%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -301,50 +306,16 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 477px;
-}
-
-.u-section-3 .u-group-elements-1 {
-  width: 379px;
-  min-height: 413px;
-  height: auto;
-  margin: 35px 0 0 auto;
-}
-
-.u-section-3 .u-text-1 {
-  background-image: none;
-  margin: 0;
-}
-
-.u-section-3 .u-text-2 {
-  margin: 0 0 0 24px;
-}
-
-.u-section-3 .u-text-3 {
-  font-size: 1.5rem;
-  margin: 13px 0 0;
-}
-
-.u-section-3 .u-text-4 {
-  margin: 11px 0 0 24px;
-}
-
-.u-section-3 .u-text-5 {
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-.u-section-3 .u-text-6 {
-  margin: 0 0 0 24px;
+  min-height: 965px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  width: 750px;
-  margin: -438px auto 0 0;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .u-section-3 .u-layout-cell-1 {
-  min-height: 477px;
+  min-height: 660px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -355,25 +326,56 @@
   position: absolute;
 }
 
+.u-section-3 .u-group-elements-1 {
+  min-height: 288px;
+  height: auto;
+  width: 664px;
+  margin: 22px auto 0;
+}
+
+.u-section-3 .u-text-1 {
+  background-image: none;
+  margin: 0;
+}
+
+.u-section-3 .u-text-2 {
+  margin: 0 12px;
+}
+
+.u-section-3 .u-text-3 {
+  font-size: 1.5rem;
+  margin: 13px 0 0;
+}
+
+.u-section-3 .u-text-4 {
+  margin: 11px 12px 0;
+}
+
+.u-section-3 .u-text-5 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.u-section-3 .u-text-6 {
+  margin: 0 12px;
+}
+
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
     min-height: 461px;
   }
 
-  .u-section-3 .u-group-elements-1 {
-    width: 327px;
-    min-height: 438px;
-    margin-top: 0;
-    margin-right: 17px;
-  }
-
   .u-section-3 .u-layout-wrap-1 {
-    width: 586px;
-    margin-bottom: 40px;
+    margin-top: 35px;
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 431px;
+    min-height: 544px;
+  }
+
+  .u-section-3 .u-group-elements-1 {
+    min-height: 438px;
+    margin-top: 31px;
   }
 }
 
@@ -382,18 +384,17 @@
     min-height: 438px;
   }
 
-  .u-section-3 .u-layout-wrap-1 {
-    margin-top: 20px;
-    margin-bottom: 0;
-  }
-
   .u-section-3 .u-layout-cell-1 {
-    min-height: 396px;
+    min-height: 417px;
   }
 
   .u-section-3 .u-container-layout-1 {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .u-section-3 .u-group-elements-1 {
+    margin-top: 66px;
   }
 }
 
@@ -402,18 +403,19 @@
     min-height: 307px;
   }
 
-  .u-section-3 .u-layout-wrap-1 {
-    width: 540px;
-    margin-bottom: 40px;
-  }
-
   .u-section-3 .u-layout-cell-1 {
-    min-height: 1164px;
+    min-height: 313px;
   }
 
   .u-section-3 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-3 .u-group-elements-1 {
+    margin-top: -702px;
+    margin-bottom: 60px;
+    width: 540px;
   }
 }
 
@@ -422,16 +424,14 @@
     min-height: 190px;
   }
 
-  .u-section-3 .u-group-elements-1 {
-    margin-right: 13px;
-  }
-
-  .u-section-3 .u-layout-wrap-1 {
-    width: 340px;
-  }
-
   .u-section-3 .u-layout-cell-1 {
-    min-height: 217px;
+    min-height: 197px;
+  }
+
+  .u-section-3 .u-group-elements-1 {
+    margin-top: 245px;
+    margin-bottom: 0;
+    width: 340px;
   }
 } .u-section-4 {
   background-image: linear-gradient(270deg, #d9d9d9, white);
