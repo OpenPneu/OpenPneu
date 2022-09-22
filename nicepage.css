@@ -38308,17 +38308,20 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-custom-html-1 {
   height: auto;
   min-height: 100px;
-  margin: 0 0 0 990px;
+  margin: 1px 0 0 990px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: -60px auto 41px;
+  margin: -61px auto 41px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-custom-html-1 {
-    margin-top: 1px;
     margin-left: 790px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: -60px;
   }
 }
 @media (max-width: 991px) {
