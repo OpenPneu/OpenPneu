@@ -20469,7 +20469,7 @@ section.u-dialog-block:not(.u-dialog-open) {
   border: 0;
 }
 .u-carousel-duration-10000 .u-carousel-inner .u-carousel-item {
-  transition-duration: 10000ms;
+  transition-duration: 10000000ms;
 }
 .u-carousel-duration-9750 .u-carousel-inner .u-carousel-item {
   transition-duration: 9750ms;
