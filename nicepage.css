@@ -590,7 +590,7 @@ ol {
 /* Fade effect */
 .u-effect-fade .u-over-slide {
   opacity: 0;
-  transition: all 1500ms ease;
+  transition: all 3000ms ease;
 }
 .u-effect-fade:hover .u-over-slide,
 .u-effect-fade.u-effect-active .u-over-slide {
@@ -599,7 +599,7 @@ ol {
 /* Over effect */
 .u-effect-over-left .u-over-slide {
   transform: translate(-100%, 0);
-  transition: all 500ms ease;
+  transition: all 1500ms ease;
 }
 .u-effect-over-left:hover .u-over-slide,
 .u-effect-over-left.u-effect-active .u-over-slide {
