@@ -16,6 +16,12 @@
     
     
     
+    
+    
+    
+    
+    
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -26,7 +32,7 @@
     <meta property="og:title" content="Software">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-gradient u-xl-mode" data-lang="en" style="background-image: linear-gradient(135deg, white, #e5e5e5);"><header class="u-clearfix u-header u-sticky u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-white u-header" id="sec-a840"><div class="u-clearfix u-sheet u-sheet-1">
+  <body class="u-body u-gradient u-xl-mode" data-lang="en" style="background-image: linear-gradient(to right, white, #e5e5e5);"><header class="u-clearfix u-header u-sticky u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-white u-header" id="sec-a840"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="https://github.com/OpenPnuUoM/OpenPneu" class="u-image u-logo u-image-1" data-image-width="1234" data-image-height="892" title="openpneu">
           <img src="images/WeChatImage_20220921193537.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -74,16 +80,9 @@
         <h1 class="u-text u-text-default u-text-1">Software</h1>
       </div>
     </section>
-    <section class="u-clearfix u-gradient u-section-2" id="sec-aaf5">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <ul class="u-align-center u-text u-text-default-lg u-text-default-xl u-text-1">
-          <li> Here is guide about OpenPneu system UI</li>
-        </ul>
-      </div>
-    </section>
-    <section class="u-clearfix u-gradient u-section-3" id="sec-477e">
+    <section class="u-clearfix u-gradient u-section-2" id="sec-477e">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="images/WeChat Image_20220930152019.png" alt="" data-image-width="1920" data-image-height="673">
+        <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="images/WeChatImage_20220930152019.png" alt="" data-image-width="1920" data-image-height="673">
         <div class="u-clearfix u-expanded-width-xs u-group-elements u-group-elements-1">
           <p class="u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xs u-text-1"> Core:STM32 <span style="font-weight: 400;"></span>
             <br>
@@ -131,9 +130,163 @@ and&nbsp;Linux).&nbsp;&nbsp;&nbsp;</li>
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-gradient u-section-4" id="sec-9539">
+    <section class="u-clearfix u-gradient u-section-3" id="sec-e4f6">
+      <div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Firmware</h2>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-4" id="sec-a62b">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="u-image u-image-default u-image-1" src="images/7c26fdfeda8aafd69ae924a3174a2130704fa271b878b900a9053fd3c0e0c9415c904b1b5b0777ba55650bf2a818e337e5b8a66b0660f7f044030e_1280.jpg" alt="" data-image-width="1280" data-image-height="854">
+        <p class="u-text u-text-default u-text-1">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-file-link u-hover-none u-none u-text-palette-1-base u-btn-1" href="files/TimerFunc-openPneu2.zip">Download ​ the program&nbsp;by click icon&nbsp;<span class="u-file-icon u-icon"><img src="images/149184.png" alt=""></span>
+          </a>
+        </p>
+        <p class="u-text u-text-2">Arduino </p>
+        <p class="u-text u-text-3">Under Tools selection , pick<span style="font-weight: 400;"></span> correct settings 
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-5" id="sec-b6aa">
+      <div class="u-clearfix u-sheet u-valign-bottom u-sheet-1">
+        <img class="u-image u-image-contain u-image-default u-image-1" src="images/setting.jpg" alt="" data-image-width="430" data-image-height="434">
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-6" id="sec-0e13">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <ul class="u-align-left u-text u-text-1">
+          <li>set Board to Generic STM32F1 series</li>
+          <li>set Board part number&nbsp; to Generic F103C8Tx</li>
+          <li>set U(S)ART support to Enabled (generic 'Serial')</li>
+          <li>set USP speed to Low\Full Speed</li>
+          <li>set Optimize to Smallest(-Os default)</li>
+          <li>set C Runtime Library tp Newlib Nano (default)</li>
+          <li>set Upload method is STM32CubeProgrammer(Serial)</li>
+        </ul>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-7" id="sec-10f2">
+      <div class="u-clearfix u-sheet u-valign-bottom-xs u-sheet-1">
+        <p class="u-text u-text-default u-text-1">We highlight uploading switch in our PCB layout.&nbsp;</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-8" id="sec-d077">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <img class="u-expanded-width u-image u-image-contain u-image-1" src="images/pcb3.png" data-image-width="1920" data-image-height="767">
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-9" id="sec-9539">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width-xs u-group-elements u-group-elements-1">
+          <p class="u-align-left u-text u-text-1">Before you upload your program, make sure these are already done:</p>
+          <ol class="u-align-left u-text u-text-2">
+            <li>Use jumper to ​connect BOOT1 to GND3</li>
+            <li>Use another jumper to connect VCC1 to BOOTO</li>
+            <li>Connect USB-B to computer</li>
+            <li>Press the Botton</li>
+          </ol>
+          <p class="u-align-left u-text u-text-3">After finish programming:</p>
+          <ol class="u-align-left u-text u-text-4">
+            <li>Disconnect the jumper between ​VCC1 and BOOTO</li>
+            <li>Use jumper to connect BOOT0 and GND3</li>
+          </ol>
+          <p class="u-text u-text-5">If you dont follow these two steps after uploading, the firmware will be erased.</p>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-gradient u-section-10" id="sec-8a1d">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-1">Instruction Table</p>
+        <p class="u-text u-text-2">This table contains all instructions that you can use to directly control the OpenPneu.<br>You can send instructions through Arduino IDE, Python or any other programing language which can support serial communication.
+        </p>
+        <div class="u-table u-table-responsive u-table-1">
+          <table class="u-table-entity">
+            <colgroup>
+              <col width="25.4%">
+              <col width="23.2%">
+              <col width="51.4%">
+            </colgroup>
+            <thead class="u-table-header">
+              <tr style="height: 41px;">
+                <th class="u-border-3 u-border-grey-dark-1 u-border-no-left u-border-no-right u-table-cell u-table-cell-1">Instruction</th>
+                <th class="u-border-3 u-border-grey-dark-1 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Reply</th>
+                <th class="u-border-3 u-border-grey-dark-1 u-border-no-left u-border-no-right u-table-cell u-table-cell-3">Functionality</th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">AT</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OK</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Check Connection</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">AT+ADD</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">ADD=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Check Device Address</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">AT+SADD=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">SADD=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Modify Device Address</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">PREAD=XX&nbsp;</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Val=xx&nbsp;</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Pressure of Channel XX: xx kPa</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">VON=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OK<br>
+                </td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Set Valve xx to High</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">VOFF=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OK</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Set Valve xx to Low</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">PSPEED=XX,YY</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OK</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Set Channel XX Flow Rate to YY</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell u-table-cell-25">CON=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">ON</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Enable PID Control on Channel XX</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">CON:ALL</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">ALL ON</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Enable PID Control on all channels</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">COFF=XX</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OFF</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Disable PID Control on Channel XX</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">COFF:ALL</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">ALL OFF</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Disable PID Control on all Channels</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell u-table-cell-37">PSET=XX,YY</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">XX=YY&nbsp;</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Set Target on Channel XX to YY kPa</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell u-table-cell-40">PSET:X,X,...,X;&nbsp;</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OK</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Update Target Pressure on All Channels</td>
+              </tr>
+              <tr style="height: 48px;">
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell u-table-cell-43">AT+RST</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">OK</td>
+                <td class="u-border-2 u-border-grey-dark-1 u-table-cell">Reset All</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
     
@@ -155,6 +308,6 @@ and&nbsp;Linux).&nbsp;&nbsp;&nbsp;</li>
           <p class="u-align-left-xs u-small-text u-text u-text-variant u-text-5"> Please see our paper for more details:</p>
         </div>
       </div></footer>
-    
+  
   
 </body></html>
